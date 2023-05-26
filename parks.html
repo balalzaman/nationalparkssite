@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARKner | Mountains</title>
+    <title>PARKner | Parks</title>
 
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
@@ -40,26 +40,93 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-                <br>
             </div>
         </div>
     </nav>
-
-
-    <div class="image">
-        <img src="images/ZNP.JPG" class="d-block w-100" width="900" height="450" alt="AngelsLanding">
-    </div>
-        
-    <div class="m-container-fluid">
-        <div class="row">
-            <div class="col">
-                <br>
-                <h2>Search for a Mountain Range</h2>
-
+        <br>
+            <div class="image">
+                <img src="images/RMNP.JPG" class="d-block w-100" width="1500" height="450" alt="Emerald Lake">
             </div>
+            <br>
 
 
-        </div>
+    <div id="selectOptions">
+
+        <select id="searchFilter" class="form-select text-bg-light opacity-75 mb-3">
+            <option id="default">Search Parks by</option>
+            <option id="location">Location</option>
+            <option id="parkType">Park Type</option>
+            <option id="nationalPark">All</option>
+        </select>
+        <br>
+        <br>
+
+        <select id="searchLocation" class="form-select text-bg-light opacity-75 mb-3">
+            <option>Select State</option>
+            <option>Alabama</option>
+            <option>Alaska</option>            
+            <option>Arizona</option>
+            <option>Arkansas</option>
+            <option>California</option>
+            <option>Colorado</option>
+            <option>Connecticut</option>
+            <option>Delaware</option>
+            <option>Florida</option>
+            <option>Georgia</option>
+            <option>Guam</option>          
+            <option>Hawaii</option>            
+            <option>Idaho</option>           
+            <option>Illinois</option>
+            <option>Indiana</option>
+            <option>Iowa</option>          
+            <option>Kansas</option>
+            <option>Kentucky</option>
+            <option>Louisiana</option>
+            <option>Maine</option>           
+            <option>Maryland</option>
+            <option>Massachusetts</option>
+            <option>Michigan</option>
+            <option>Minnesota</option>
+            <option>Mississippi</option>
+            <option>Missouri</option>
+            <option>Montana</option>
+            <option>Nebraska</option>
+            <option>Nevada</option>            
+            <option>New Hampshire</option>
+            <option>New Jersey</option>
+            <option>New Mexico</option>
+            <option>New York</option>
+            <option>North Carolina</option>
+            <option>North Dakota</option>
+            <option>Ohio</option>          
+            <option>Oklahoma</option>
+            <option>Oregon</option>            
+            <option>Pennsylvania</option>
+            <option>Rhode Island</option>
+            <option>South Carolina</option>
+            <option>South Dakota</option>
+            <option>Tennessee</option>
+            <option>Texas</option>           
+            <option>Utah</option>          
+            <option>Vermont</option>
+            <option>Virginia</option>
+            <option>Washington</option>
+            <option>West Virginia</option>
+            <option>Wisconsin</option>
+            <option>Wyoming</option>
+        </select>
+        <br>
+        <br>
+
+        <select id="searchParkType" class="form-select text-bg-light opacity-75 mb-3">
+            <option>Select Park Type</option>
+        </select>   
+        <br>
+        <br>
+        <select id="searchPark" class="form-select text-bg-light opacity-75 mb-3">
+            <option>Search National Park</option>
+        </select>
+
     </div>
 
 
