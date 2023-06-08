@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARKner | Mountains</title>
+    <title>PARKner | Parks</title>
 
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
@@ -16,34 +16,29 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <a href="./index.html" class="logo">PARKner</a>
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="parks.html">National Park Search</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mountain.html">Mountains Information Page</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                <br>
+    <header class="header" id="header">
+        <nav class="nav container" id="nav">
+            <a href="./index.html" class="logo">PARKner</a>
+            <div class="nav-mobile">
+                <ul class="list">
+                        <li class="list-item">
+                            <a class="list-link current" href="index.html">Home</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="parks.html">National Park Search</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="mountain.html">Mountains Information Page</a>
+                        </li>
+                    </ul>
             </div>
-        </div>
-    </nav>
+
+            <div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">
+                <i class="ri-menu-3-line menu-open-icon"></i>
+                <i class="ri-close-fill menu-close-icon"></i>
+            </div>
+        </nav>
+    </header>
 
 
     <div class="image">
@@ -72,7 +67,7 @@
                     <address>
                         <span>123 Main St</span>
                         <span>New York City, NY 12345</span>
-                        <a href="tel:800-588-2300" class="underline">(800) 588-2300</a>
+                        <a href="tel:800-588-2300" class="underline">1-800-PARKNER</a>
                         <a href="mailto:" class="underline">email@gmail.com</a>
                     </address>
                     <ul class="list">
